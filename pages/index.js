@@ -34,7 +34,6 @@ const App = () => {
         </header>
 
         <main>
-          <img src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif" alt="emoji" />
           {/* We only render the connect button if public key doesn't exist */}
           {publicKey ? 'Connected!' : renderNotConnectedContainer()}
 
